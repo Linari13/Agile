@@ -11,20 +11,24 @@ Customer collaboration 			over 	Contract negociation
 Responding to Change			over 	Following a Plan
 
 	a. Individuals and iteractions
+	*******************************
 		People
 		Processes and tools should help team work instead of replacing them.
 
 	b. Working Software
+	********************
 		Value
 		From costumer perspective a working software is more valuable that comprehensive documentation.
 		Agile produce only the necesary documentation
 
 	c. Customer collaboration
+	**************************
 		Flexibility
 		We shouyld recognize since the very start that things are going to change.
 		Agile provides moreflexible contrat models
 
 	d. Responding to change
+	************************
 		Smart planning
 		Adapting our plan to the changes
 
@@ -62,6 +66,7 @@ III. The Whole team approach
 
  Agile teams are:
  	a. Number
+ 	**********
   		- small (7 +/- 2)
   		- stable
   		- Cross functional
@@ -73,6 +78,7 @@ III. The Whole team approach
   		- All meetings are attended by everyone
   	
   	b. Skills
+  	**********
 		- Possesses all the skills needed
   		- Generalizing specialists
   		- People who can act more than one role are preferred
@@ -82,6 +88,7 @@ III. The Whole team approach
 		- Agile is all about Quality
 
 	c. Purpose
+	***********
 		- Maximizes the business value
 		- The whole team is responsible for quality
 		- Knowledge transfer
@@ -89,11 +96,13 @@ III. The Whole team approach
 		- Transparency.
 
 	d. Accountability
+	******************
 		- Shared ownership.
 		- No "departments".
 		- Team takes responsability for all kinds of testing tasks.
 	
 	e. Benefits
+	************
 		- Enhancing communication and collaboration within the team.
 		- Helps team to build a strong working relationships, through effective coloperation, teamwork and communication.
 		- Enabling the various skill sets within the team to maximize the value of the project.
@@ -111,8 +120,8 @@ IV. Early and frequent feedback
  - Promoting consistent project momentun.
  - Understand our strengths, weaknesses and our gaps better.
 
- V. Aspect of agile Approaches
- --------------------------------
+V. Aspect of agile Approaches
+--------------------------------
  	a. Extreme programming (XP)
  	*****************************
  	Considered to be the most complete agile process model
@@ -419,3 +428,244 @@ IV. Early and frequent feedback
 	 - Internal factor (delivery capabilities, velocity, internal issues)
 	 - External factors (new market & opportunities, new competitors, business threats)
 	 - iteration plan may change during an iteration.
+
+VI. Difference between Agile and Traditional
+--------------------------------------------
+
+	a. Testing and Development
+	***************************
+	Agile differs in term of the way testing and development activities are integrated, hte project work products, the names, entry and exit criteria used for various levels of testing, use of tools, how independent testing can be used.
+
+		- Time frame: Agile has very short iteration
+		- Planning: Agile has a planning period at the beginning of the project, followed by a sequence of iterations, which all begin by an iteration planning period.
+		- Delivery: Agile provides a release of a set of activities to get the software ready for delivery. In some case delivery occurs at the end of each iteration.
+		- Technical debt: feature not done until fully accepted by the customer, no remaining bugs.
+		- Changes: Agile integrates changes within the project schedule
+		- Requirements: User stories are selected for every iteration and developped, integrated, and tested during it.
+		- Testing : done during the iteration itself
+		- Test automation: occurs at all levels of testing.
+		- Risk: risk analysis happens at many levels, high level risk analysis occurs during release planning, specific quality risks are identified and assessed in iteration planning.
+		- Pairing.
+		- Coaches : Collective ownership of quality of the product.
+
+	b. Project Work products
+	*************************
+		- Business-oriented work products: User Stories, Acceptance Criteria.
+			What is needed
+			How to use it
+
+		-Development work products: Code, Unit tests.
+			How the system is built
+			That actually implement the system
+			Evaluate individual pieces of code
+
+		- Test work products: Manual tests. Automated Tests, Tests plans, Quality risk catalogues, Defect reports and result logs, test metrics.
+			How the system is tested
+			Actually test the system
+			Present tast results
+
+	c. Test Levels
+	***************
+		Acceptance testing
+			|-> System testing
+				|-> Integration testing
+					|-> Unit testing
+
+	In some iterative models, Tests levels overlap.
+	During an iteration any User Story will progress through the following test activities:
+		- Unit testing
+		- Feature acceptance testing
+		- Feature verification testing
+		- Feature validation testing
+		- Regression testing
+
+	d. Testing and configuration management
+	****************************************
+		- Code and unit test are checked into a configuration management system
+		- Using frameworks that allow continuous integration with the system
+		- The role of the automated test is:
+			º to confirm the build is functioning and installable
+			º Checks the stabilization of the build, and its functioning
+			º Reducing the time (and cost) to run repetitive tests
+			º Improves accuracy
+		- Requires an invesment in real-time reporting
+		- Help to manage the regression risk
+
+	e. Organizational options for Independent Testing
+	**************************************************
+		- One or more testers may join the team, performing many of the testing tasks : risk of loss of independence and objective evaluation
+		- Assign Tester in demand during the fimal days of the sprint : risk of time pressures, lack of understanding, and relationship issues.
+		- Independant, separate test team assigned to agile teams on a long term basis at the beginning of the project. Plus Specialized testers outside of the agile teams to work on long-term and/or iteration independent activities.
+
+VII. Status of testing in Agile projects
+-----------------------------------------
+	a. Burn down and burn up charts
+	********************************
+		Used to show the progress and help to determine when the project (or a release) should be complete
+
+		- Burn down charts show the estimated effort remaining on the project.
+		It shows a progress idicator moving downward to indicate the reduced amount of work to be done.
+		It can show the date of the completion of the project.
+
+		- Burn up charts show what has been delivered
+
+	The chart should be updatedd at the end of each iteration.
+
+	b. Communicating progress and quality
+	**************************************
+		Test progress and status is measured by:
+			. Test automation results
+			. Progression of test tasks
+			. Stories on the Agile task board
+			. Burn down charts
+		And communicated to the team via:
+			. Wiki dashboard
+			. Dashboard style emails
+			. Stand up meeting (15min max):
+				Each member answers 3 questions :
+				 - What have you completed since last meeting?
+				 - What do you plan to complete by the next meeting?
+				 - Any issue preventing you form finishing work?
+
+	c. Managing Regression Risk
+	****************************
+		- Team must investigate in tyest automation and all test levels as early as posible.
+		- All test assests have to be kept up-to-date.
+		- The needs to automate as many tests as possible
+		- Defining how the team designs, writes, and stores the test cases should occur during release planning.
+
+VIII. Role and Skills of a tester in Agile Team
+------------------------------------------------
+	a. Skills
+	**********
+		- Test automation
+		- Test driven-development
+		- Acceptance test driven-development
+		- White-box testing
+		- Black-box testing
+		- Experience based testing
+
+		- Act positive and solution-oriented
+		- Have a critical eye
+		- Be pro-Active
+		- Accurately evaluate and report test results
+		- Use the tester skills
+		- Be a good team member
+		- Have an open mindset
+		- Be professional
+		- Continuous skills growth
+		- ¡¡¡¡ COMMUNICATION SKILLS !!!!
+
+	b. Role
+	********
+		- Understand, implement and update test strategy.
+		- Measure and report test coverage
+		- Ensures proper use of test tools
+		- Configures, uses and manage test environments and test data
+		- Reports defects and work with the team to resolve them
+		- Coaching other team member in relevant aspects of testing
+		- Ensures the appropriate testing tasks are scheduled during release and iteration planning
+
+VIII. Agile Testing methods
+----------------------------
+
+	a. Test-Driven development
+	***************************
+	 - Test should be written before the code is written
+	 - Developers begin a cycle of writing code and running the tests until code passes all the tests.
+
+	 	3 phases:
+	 		. RED: Add a test,Run the test, make it fail since the code doesn't exist
+	 		. Green: Write the code and run the test until it passes
+	 		. Refactor: change the code to improve the design
+
+	 	Then repeat this process for the next piece of code
+
+	b.Acceptance Test-driven development and Behaviour-driven development
+	*********************************************************************
+		º Acceptance driven:
+			- is based on communication between business customer, devellopers, and testers
+			- Define criteria and test during creation of user stories
+			- expected behavior understood by everyone
+			- Define tests for intended behavior
+			- Create automated acceptance tests
+			- Program intended behavior
+			- run automated accepatance tests
+			- create regression tests for contimuous integration
+
+		º Behaviour driven development:
+			- Developers can focus on testing the code based on the expected behavior of the software
+			- Tests are easier to understand for team members or stakeholders
+			- given/when/then format is used to define acceptance criteria:
+				* Given <Some initial context>
+				* When <something occurs>
+				* Then <ensure some outcomes>
+
+
+	Differences between TDD, ATDD, BDD:
+		- TDD: we test how the developer interprets what the sofware is supposed to do.
+		- ATDD: involve the costumer from the beginning
+		- BDD: Easier to understand for the customer.
+
+
+	c. The test pyramid
+	********************
+		  /	Acceptance \         Few tests     GUI Tools
+		 /              \             (Graphice User Interface)
+		/	  System     \
+	   /                  \------------------------------------------
+	  /		Integration    \
+	 /                      \ Large number     API tools
+	/		  Unit           \ of test   (Applctº Program interface)  
+
+	d. Testing Quadrants, Test levels, and Testing Types
+	*****************************************************
+		* Testing Quadrants:
+			- determines which type of test we're going to use
+
+				Business Facing
+	Supporting		Q2  |  Q3		Critique
+		the			____|____		Product
+		Team			|
+					Q1  |  Q4
+				Technology Facing
+
+			Q1:
+				Unit testing (Component Testing - Integration testing )
+			Q2:
+				Functional test (Story Test- prototypes - simulation)
+			Q3:
+				Exploratory - Usability testing - User Acceptance Testing
+			Q4: 
+				Performance Testing - Security testing - ...
+
+	f. Role of a Tester
+	*******************
+		- Cross-functional
+		- Self-Organizing
+		- Co-located
+		- Collaborative
+		- Empowered
+		- Committed
+		- Transparent
+		- Credible
+		- Open to feedback
+		- Resilient
+
+		Sprint zero:
+		 - identify the scope of a project
+		 - Divide user stories into sprints
+		 - Create an initial system architecture and high level prototypes
+		 - Plan, acquire, and install needed tools
+		 - Create an initial test strategy for all test levels.
+		 - Perform an initial quality risk analysis
+		 - Define test metrics to measure the test process
+		 - Specify the defintion of "Done"
+		 - Define exit criteria
+		 - Create the task board
+
+		 Test planning:
+		 - Start during release planning and is updated during each sprint.
+		 - Sprint planning results in a set of task on the task board.
+		 - Any testing issues should be tracked to keep a steady flow of testing.
+		 
