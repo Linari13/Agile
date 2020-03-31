@@ -269,3 +269,153 @@ IV. Early and frequent feedback
  	Like in Scrums, Kanban vizualize the active tasks.
  	Tasks not yet activated are waiting into the backlog.
  	Kanban process allows releasing its deliverables item by item.
+
+
+ 	d. Collaborative user story creation
+ 	*************************************
+ 	Each requirements should ahave a value to the user: that's why it's call "user story".
+
+ 	User stories are written with the following format:
+ 		As <Role>
+ 		I want <Functionality>
+ 		So that <Business Benefit>
+
+ 	- The product owner explains the User Story to the team.
+ 	- Shared vision of a feature is obtained through frequent informal reviews, conversations and discussions.
+ 	- The user story adresses functional and non-functional characteristics
+ 	- Each story includes acceptance criterias that will determine when the task is finished
+ 	- Tester's perspective improves User Story identifying missing details or non-functional requirements
+
+
+ 		º Effective User Stories technique : INVEST
+ 			I: Independent
+ 				being able to reprioritize and develop user stories in any order
+ 			N: Negotiable
+ 				making tradeoff's based on cost and function with business representatives
+ 			V: Valuable
+ 				(indispensable)
+ 			E: Estimatable
+ 				We should be able to estimate the effortr of the user story
+ 			S: Small
+ 				easier to estimate and test (1/2 - 10 days)
+ 			T: Testable
+
+ 		º 3 Cs concept:
+ 			1. Card: 			where the requirements are written down
+ 			2. Conversation: 	collaborating to define the requirements and understand the value
+ 			3. Confirmation:	Agreeing on the acceptance criteria to know when we're done
+
+ 	e. Retrospectives:
+ 	******************
+ 	QA activity : What was succesful, what can be improved,...
+
+ 	- It covers topics such as process, people, organizations, relationship, and tools.
+ 	- The lessons and improvements are applicable to the upcoming work.
+ 	- Improves the global work of the team.
+ 	- The team should implement only a few improvements per iteration, allowing a continuous improvement at a sustained pace.
+
+ 	Benefits and improvements:
+ 		. Improved Productivity
+ 		. Improved Capability
+ 		. Improved Quality
+ 		. Improved Capacity
+
+ 	The retrospective meeting is conducted right after the sprint review.
+ 	Retrospectives need MUTUAL TRUST.
+ 	3 questions to ask:
+ 		- What should we start doing?
+ 		- What should we stop doing?
+ 		- What should we continue to do?
+
+ 	f. Continuous Integration:
+ 	**************************
+ 	Helps minimizing the integration problems.
+ 	Help deliver reliable, working, integrated software.
+
+ 		º Continuous Integration Process:
+ 			. Static code analysis
+ 			. Compiling
+ 			. Unit test
+ 			. Deploy
+ 			. Integration Test
+ 			. Report
+ 		The process is fully automated
+
+ 		º Continuous Integration Components:
+ 			. Source code control system
+ 			. Build tool
+ 			. Test tools
+ 			. Scheduler or trigger (initiate the integration process)
+ 			. Notification
+
+ 	Automated build and test process takes place on a daily basis and detects integration errors early and quickly.
+
+ 	Continuous Integration allows Agile Testers to run automated test regularly
+
+ 	Test results are visible to all team members.
+
+ 	Build tools are used to implement continuous quality control :
+ 		- sstatic and dynamic tests
+ 		- Measure and profile performance
+ 		- Extract and format documentatiom from the source code
+ 		- Facilitate manual quality assurance processes
+
+ 	Continuous Integration Risks:
+ 		- Ttools have to be introduced and maintained.
+ 		- CI process must be defined and establish.
+ 		- Tast automation requires additional resources.
+ 		- Thorough test coverage is essential to achieve automated testing advantages.
+ 		- Over relying on unit test and not performing enough system and acceptance test
+ 		- Setup time to establish a build server and configure the continuous integration software
+ 		- cost of procuring the server machine
+ 		- time required to build a suite of automated tests
+
+ 	g. Velocity:
+ 	************
+ 	It's the measure of a team's capacity for work per iteration.
+ 	It's based on the number of User Stories completed on past iterations.
+
+ 	Can be used to determine when a project will be completed.
+ 	Velocity usually varies most in the first few iterations and then begins to stabilize.
+
+ 	h. Release Planning:
+ 	********************
+ 	>>>>>>>>>>>>>>>>Project>>>>>>>>>>>>>>
+ 	>>>Release Plan>>> >>>Release Plan>>>
+ 	>>Iter>>  >>Iter>>  >>Iter>> >>Iter>>
+
+	- Agile projects are divided into releases and iterations
+	- A release is a group of iterarions that results in the completion of a valuable deliverable.
+
+	Test planning activities includes:
+	 - Scope of testing, extent of testing for those areas in scope, test goals, reasons for it.
+	 - Who will carry the test activities
+	 - Test environment, test data needed, when they are needed.
+	 - Timing, sequencing, prerequesites.
+	 - Project and quality risks to be adressed
+	 - Estimation of time and effort needed for the testing activities.
+
+	. Release planning looks ahead to the release of a product, and defines and redefines the product backlog.
+	. When planning we ask: "What proportion of the user wtory baclog can be delivered in the release?"
+	. After Release planning is done, iteration planning of the first iteration starts.
+
+		 Iteration Planning:
+		 .....................
+	
+			. We ask the team to selectt high priority use stories to developed, tested and delivered within the iteration.
+			. The team elaborates User Story, performs risk analysis andestimate the work needed.
+			. Once the contents of the iteration are finalized, the user stories are broken into tasks, carried out by the appropriate team members.
+
+				Iteration Planning activities:
+	 			  	- Detailed risk analisys of user stories.
+					- Determine the testability of user stories.
+					- Create acceptance tests for the user stories.
+					- Breaking down user stories into tasks (in particular testing tasks).
+					- Estimating testing effort for all testing tasks.
+					- Identifying functional and non-functional aspects to be tested
+					- Supporting and sparticipating in test automation
+
+	Release Planning changes:
+	 - Internal factor (delivery capabilities, velocity, internal issues)
+	 - External factors (new market & opportunities, new competitors, business threats)
+	 - iteration plan may change during an iteration.
